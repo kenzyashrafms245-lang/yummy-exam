@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Meals by Ingredient</title>
+</head>
+
+<body>
+    <div class="white-strip d-flex flex-column justify-content-between py-4 px-2 text-center">
+
+
+        <div class="icon-container">
+            <img class="logo img-fluid" src="./imgs/logo.png" alt="logo image">
+        </div>
+
+        <div id="menuBtn">
+            <i id="toggleIcon" class="fa-solid fa-bars fs-3"></i>
+        </div>
+        <div>
+            <i class="fa-solid fa-globe d-block fs-6"></i>
+            <i class="fa-solid fa-share-nodes fs-6"></i>
+        </div>
+
+    </div>
+
+    <div id="sideNav" class="sidebar d-flex flex-column">
+        <ul class="menu">
+            <li><a href="search.html">Search</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="area.html">Area</a></li>
+            <li><a href="ingrediant.html">Ingredients</a></li>
+            <li><a href="contactUS.html">Contact Us</a></li>
+        </ul>
+
+        <div class="sidebar-footer text-white mt-auto pb-4 pt-5 px-3">
+            <div class="mb-2">
+                <i class="fa-brands fa-facebook-f me-3"></i>
+                <i class="fa-brands fa-twitter me-3"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+
+            <p class="m-0 small">
+                Copyright © 2019 All Rights Reserved.
+            </p>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="row g-4" id="mealsRow"></div>
+    </div>
+
+    <script src="./js/ingredientMeals.js"></script>
+</body>
+
+</html>
